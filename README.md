@@ -2,11 +2,11 @@
 
 An intelligent AI-powered chatbot designed to help users navigate recycling laws and practices in the United States and Germany. Built with advanced RAG (Retrieval-Augmented Generation) technology, this chatbot provides accurate, region-specific recycling guidance.
 
-## 👥 Authors
+## Authors
 
 **Katja Crusius** and **Joan Zheng**
 
-## 🌟 Features
+## Features
 
 - **Region-Specific Guidance**: Choose between US and German recycling regulations
 - **Intelligent Document Retrieval**: Uses vector search to find relevant recycling information
@@ -15,7 +15,7 @@ An intelligent AI-powered chatbot designed to help users navigate recycling laws
 - **Real-time Citations**: Provides clickable links to source documents
 - **Context-Aware Responses**: Maintains conversation history for better interactions
 
-## 📸 Screenshots
+## Screenshots
 
 ### Welcome Interface
 ![Cover Page](img/cover-page.png)
@@ -29,7 +29,7 @@ An intelligent AI-powered chatbot designed to help users navigate recycling laws
 ![US Example 2](img/US-example-2.png)
 
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -89,7 +89,7 @@ An intelligent AI-powered chatbot designed to help users navigate recycling laws
    make ui
    ```
 
-## 💻 Usage
+## Usage
 
 1. Open your browser to `http://localhost:8501`
 2. Select your region (US or Germany) from the dropdown
@@ -103,7 +103,7 @@ An intelligent AI-powered chatbot designed to help users navigate recycling laws
 - "Can I recycle pizza boxes?"
 - "What materials are considered hazardous waste?"
 
-## 🏗️ Architecture
+## Architecture
 
 ### Technology Stack
 
@@ -149,7 +149,7 @@ An intelligent AI-powered chatbot designed to help users navigate recycling laws
    - Chat interface with history
    - Citation display with clickable links
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 SusTech Recycling Agent/
@@ -174,7 +174,7 @@ SusTech Recycling Agent/
 └── README.md                  # This file
 ```
 
-## 🔧 Development
+## Development
 
 ### Available Make Commands
 
@@ -199,11 +199,11 @@ TEST_RUN=true poetry run python src/Knowledge.py
 TEST_RUN=true TEST_FILE_NAME="your-file.pdf" poetry run python src/Knowledge.py
 ```
 
-## 🧪 Evaluation Suite
+## Evaluation Suite
 
 The project includes a comprehensive evaluation framework for testing the AI recycling assistant's bin recommendation accuracy across multiple disposal categories and languages.
 
-📋 **Detailed Evaluation Methodology**: See [`EVALUATION_SYSTEM.md`](EVALUATION_SYSTEM.md) for complete evaluation framework documentation.
+**Detailed Evaluation Methodology**: See [`EVALUATION_SYSTEM.md`](EVALUATION_SYSTEM.md) for complete evaluation framework documentation.
 
 ### Evaluation Results
 
@@ -262,7 +262,7 @@ python generate_report.py
 - "Wohin kommt Alufolie?" → "Gelber Sack"
 - "Kann man Pizzakartons recyceln?" → "Restmüll"
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Uses official recycling guidelines from California and German environmental agencies
 - Powered by Google's Gemini AI and LangChain framework
